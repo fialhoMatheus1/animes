@@ -1,0 +1,128 @@
+/*------------------------------Design geral do site------------------------------*/
+header {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+body {
+    background: url("/imgs/background.jpg") no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+}
+
+.conteudo {
+    color: white;
+    font-size: large;
+    margin: 3%;
+    padding: 3%;
+    text-align: justify;
+    background-color: #00000080;
+    border-width: 1px;
+    border-color: white;
+    border-style: solid
+}
+
+.texto{
+    font-size: large;
+}
+
+.altura {
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+footer {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(33, 37, 41);
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    clear: both;
+}
+
+.txt-footer {
+   text-align: center;
+   font-size: large;
+}
+
+/*------------------------------Homepage------------------------------*/
+.titulo {
+    color: white;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.img-home {
+    height: 500px;
+    width: 500px;
+    margin: 2%;
+}
+
+.controlarCards {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    height: auto;
+    width: 320px;
+    background-color: rgb(33, 37, 41);
+    color: white;
+    margin-top: 1%;
+    margin-left: 3%;
+    float: left;
+    text-align: justify;
+    display: flex;
+}
+
+.botaoCard {
+    text-align: center;
+    padding: 1%;
+}
+
+.imgCard {
+    justify-content: center;
+    padding: 1%;
+    background-color: rgb(33, 37, 41);
+    border-width: 0;
+}
+
+.txtCard {
+    padding: 1%;
+}
+
+/*------------------------------Cadastro------------------------------*/
+.cadastro {
+    justify-content: center;
+    padding: 1%;
+}
+
+.img-cadastro{
+    height: 300px;
+    width: 500px;
+    margin: 1%;
+}
+
+.botaoCadastro {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 2%;
+}
+
+/*------------------------------Editar------------------------------*/
+.pesquisar {
+    float: right;
+    margin: 2%;
+}
+
+.txt-tabela{
+    color: white;
+}
+
+.txt-coluna{
+    color: red ;
+}
